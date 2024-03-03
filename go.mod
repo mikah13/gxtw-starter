@@ -1,4 +1,4 @@
-module github.com/mikah13/avatar
+module gxtw
 
 go 1.21.6
 
