@@ -1,0 +1,9 @@
+{{ template "base" . }}
+
+
+<div class="py-12 px-24 w-full  bg-green-200">
+    <span class="text-blue-600 text-2xl font-medium">Gin + HTMX + TailwindCSS Starter</span>
+
+    <div>Current time</div>
+    <div hx-get="/time" hx-trigger="every 1s">{{.time}}</div>
+</div>

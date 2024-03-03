@@ -1,0 +1,13 @@
+{
+	"scripts": {
+		"tw": "npx tailwindcss -i ./src/index.css -o ./public/css/index.css --watch",
+		"js": "esbuild ./src/index.js --bundle --outfile=./public/js/index.js --sourcemap --watch"
+	},
+	"devDependencies": {
+		"esbuild": "^0.20.1",
+		"tailwindcss": "^3.4.1"
+	},
+	"dependencies": {
+		"htmx.org": "^1.9.10"
+	}
+}
